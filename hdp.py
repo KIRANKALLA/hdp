@@ -3,12 +3,7 @@ import streamlit as st
 pickle_in=open('hdp.pkl','rb')
 clf=pickle.load(pickle_in)
 
-a = st.select_slider(
-     'Select Age',
-     options=[range(1,100)],
-     value=(1,100))
-
-#a=st.number_input('AGE')
+a=st.number_input('AGE')
 b=st.number_input('CIGARETTES PER DAY')
 c=st.number_input('TOTAL CHOLESTROL')
 d=st.number_input('SYSTOLIC BP')
