@@ -3,7 +3,7 @@ import streamlit as st
 pickle_in=open('hdp.pkl','rb')
 clf=pickle.load(pickle_in)
 
-st.header('HEART DISEASE PREDICITON')
+st.header('       HEART DISEASE PREDICITON')
 a = st.slider('How old are you?', 1, 130, 25)
 b = st.slider('How many cigartees you smoke daily?', 0,20,10)
 c = st.slider('Total Cholestrol?', 50, 250, 50)
