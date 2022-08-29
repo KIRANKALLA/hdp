@@ -14,7 +14,7 @@ h = st.slider('Glucose levels?',100, 250, 105)
 
 
 
-'''a=st.number_input('AGE')
+comment='''a=st.number_input('AGE')
 b=st.number_input('CIGARETTES PER DAY')
 c=st.number_input('TOTAL CHOLESTROL')
 d=st.number_input('SYSTOLIC BP')
