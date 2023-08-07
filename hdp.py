@@ -1,6 +1,6 @@
 import pickle
 import streamlit as st
-import sklearn
+import scikit_learn
 pickle_in=open('hdp.pkl','rb')
 clf=pickle.load(pickle_in)
 
